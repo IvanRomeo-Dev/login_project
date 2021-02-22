@@ -13,6 +13,6 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
-});
+$router->get('/', ['as'=>'welcome','uses'=>'WebController@show_welcome']);
+$router->get('/register',['as'=>'register','uses'=> 'WebController@show_register']);
+$router->get('/profile', ['as'=>'profile','uses'=>'WebController@show_profile']);
