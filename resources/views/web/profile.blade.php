@@ -6,7 +6,7 @@
                 <div class="col"></div>
                 <div class="col">
                     <h2>Pagina protetta</h2>
-                    <h3>Informazione utenti</h3>
+                    <h3>Informazione utente</h3>
                     <p><strong>Username: </strong><span id="textusername"></span></p>
                     <p><strong>Email: </strong><span id="textemail"></span></p>
 
