@@ -29,7 +29,7 @@
         },
         error:function (){
 
-            //window.location.replace('/');
+            window.location.replace('/');
         },
         dataType:'json',
     });
